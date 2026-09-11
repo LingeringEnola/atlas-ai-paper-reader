@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#111111" />
+  <meta name="description" content="Atlas 学术论文智能阅读工作台：目录导航、沉浸阅读、AI 解释与结构化综述。" />
+  <title>ATLAS · AI 论文阅读工作台</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='4' fill='%23111'/%3E%3Cpath d='M17 47 30 15h5l13 32h-7l-3-8H25l-3 8zm10-14h9l-4.5-12z' fill='white'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Atlas 首页"><span class="brand-mark">A</span><span class="brand-name">ATLAS</span></a>
+      <div class="document-name"><span class="status-dot"></span> THE SIMPLE MACROECONOMICS OF AI.PDF</div>
+      <button class="export-primary" id="exportCard">导出知识库卡片 <span>↗</span></button>
+    </header>
+
+    <main class="workspace">
+      <aside class="pane toc-pane" data-pane="toc">
+        <div class="pane-tabs" role="tablist" aria-label="文档导航">
+          <button class="icon-tab active" role="tab" aria-selected="true" data-left-tab="toc"><span>☷</span> TOC</button>
+          <button class="icon-tab" role="tab" aria-selected="false" data-left-tab="map"><span>⌘</span> 脑图</button>
+        </div>
+        <section class="toc-content left-view active" id="tocView">
+          <p class="eyebrow">TABLE OF CONTENTS</p>
+          <nav class="toc-list" aria-label="文章目录">
+            <button class="toc-heading active" data-target="abstract"><i></i><span>Introduction</span><small>3</small></button>
+            <button class="toc-sub" data-target="abstract">AI 快速普及，ChatGPT 两月达 1 亿用户</button>
+            <button class="toc-sub" data-target="abstract">各方预测 AI 将带来巨大生产率提升</button>
+            <button class="toc-sub" data-target="abstract">本文用任务模型评估 10 年宏观影响</button>
+
+            <button class="toc-heading" data-target="framework"><i></i><span>Conceptual Framework</span><small>9</small></button>
+            <button class="toc-sub" data-target="framework">基于 Acemoglu–Restrepo 任务模型，竞争均衡</button>
+            <button class="toc-sub" data-target="framework">任务由资本或劳动生产，有比较优势</button>
+            <button class="toc-sub" data-target="framework">AI 四种渠道：自动化、互补、深化、新任务</button>
+
+            <button class="toc-heading" data-target="equilibrium"><i></i><span>Equilibrium</span><small>11</small></button>
+            <button class="toc-sub" data-target="equilibrium">竞争均衡条件：成本最小化、资本最优、劳动清市</button>
+            <button class="toc-sub" data-target="equilibrium">劳动在高指数任务有比较优势，存在阈值 I</button>
+            <button class="toc-sub" data-target="equilibrium">均衡存在唯一，需满足有限产出条件</button>
+
+            <button class="toc-heading" data-target="production"><i></i><span>How AI Could Affect Production</span><small>12</small></button>
+            <button class="toc-sub" data-target="production">AI 可扩展自动化边界，接管任务</button>
+            <button class="toc-sub" data-target="production">AI 可通过任务互补提高劳动效率</button>
+            <button class="toc-sub" data-target="production">AI 也可深化自动化或创造新任务</button>
+
+            <button class="toc-heading" data-target="wages"><i></i><span>Equilibrium Wages and Comparative Statics</span><small>13</small></button>
+            <button class="toc-sub" data-target="wages">工资取决于生产率、技术项与任务配置</button>
+            <button class="toc-sub" data-target="wages">自动化有正向生产率效应与负向替代效应</button>
+            <button class="toc-sub" data-target="wages">任务互补对工资提升有限，劳动份额下降</button>
+          </nav>
+        </section>
+        <section class="mindmap left-view" id="mapView" aria-label="文章脑图">
+          <p class="eyebrow">CONCEPT MAP</p>
+          <div class="map-canvas">
+            <button class="map-node root">AI 的宏观经济学</button>
+            <div class="map-row">
+              <button class="map-node">任务模型</button><button class="map-node">生产率</button>
+            </div>
+            <div class="map-row small">
+              <button class="map-node">自动化</button><button class="map-node">互补</button><button class="map-node">新任务</button>
+            </div>
+            <div class="map-row">
+              <button class="map-node">工资分配</button><button class="map-node">社会价值</button>
+            </div>
+          </div>
+        </section>
+        <div class="reading-progress"><span>READING</span><strong id="pageProgress">2 / 58</strong><div><i id="progressBar"></i></div></div>
+      </aside>
+
+      <section class="reader-pane" data-pane="reader">
+        <div class="reader-toolbar">
+          <div class="toolbar-group page-nav">
+            <button id="prevPage" aria-label="上一页">‹</button><span><strong id="pageNumber">2</strong> / 58</span><button id="nextPage" aria-label="下一页">›</button>
+          </div>
+          <div class="toolbar-group mode-control"><button id="translateMode">译页</button><button class="active" id="scrollMode">滚动</button></div>
+          <div class="toolbar-group zoom-control"><button id="zoomOut">−</button><span id="zoomValue">115%</span><button id="zoomIn">＋</button><button id="fitWidth">Fit width</button></div>
+        </div>
+
+        <div class="paper-scroll" id="paperScroll">
+          <article class="paper" id="paper" aria-label="论文页面">
+            <header class="paper-meta">
+              <p>NBER Working Paper No. 32487<br>May 2024<br>JEL No. E24, J24, O30, O33</p>
+            </header>
+            <section id="abstract" class="paper-section">
+              <h1>ABSTRACT</h1>
+              <p class="selectable selected">This paper evaluates claims about large macroeconomic implications of new advances in AI. It starts from a task-based model of AI’s effects, working through automation and task complementarities. So long as AI’s macroeconomic effects are driven by cost savings and productivity improvements at the task level, its macroeconomic consequences can be estimated by the fraction of tasks impacted and average task-level cost savings.</p>
+              <p class="selectable">Using existing estimates on exposure to AI and productivity improvements at the task level, these macroeconomic effects appear nontrivial but modest—no more than a 0.66% increase in total factor productivity over 10 years. The paper then argues that even these estimates could be exaggerated, because early evidence is from easy-to-learn tasks.</p>
+              <p class="selectable">Consequently, predicted productivity gains may be even more modest. AI’s wage and inequality effects may also differ from previous automation technologies, with gains distributed broadly but without automatically narrowing labor-income inequality.</p>
+            </section>
+            <section id="framework" class="paper-section">
+              <h2>1. A TASK-BASED FRAMEWORK</h2>
+              <p class="selectable">Production is represented as a continuum of tasks. Capital and labor have different comparative advantages, while technology determines which tasks can be automated and where human judgment remains valuable.</p>
+            </section>
+            <section id="equilibrium" class="paper-section">
+              <h2>2. EQUILIBRIUM</h2>
+              <p class="selectable">In equilibrium, firms minimize costs over the allocation of tasks. Wages and the labor share respond both to the direct productivity effect and to displacement across the task frontier.</p>
+            </section>
+            <section id="production" class="paper-section">
+              <h2>3. HOW AI COULD AFFECT PRODUCTION</h2>
+              <p class="selectable">AI can affect production through deeper automation, task complementarity, improved information, and the creation of new tasks. These channels have distinct implications for measured output and worker welfare.</p>
+            </section>
+            <section id="wages" class="paper-section">
+              <h2>4. WAGES AND COMPARATIVE STATICS</h2>
+              <p class="selectable">A productivity improvement does not guarantee broadly shared wage gains. The task allocation, scarcity of skills, and market institutions shape who ultimately benefits.</p>
+            </section>
+            <footer class="author-block">Daron Acemoglu<br>Department of Economics, E52-446<br>Massachusetts Institute of Technology<br>Cambridge, MA 02139<br>daron@mit.edu</footer>
+          </article>
+
+          <aside class="ai-card" id="aiCard" aria-live="polite">
+            <div class="ai-card-head"><span><i></i> AI EXPLAIN</span><button id="closeAi" aria-label="关闭解释">×</button></div>
+            <p id="aiText">这段文字评估 AI 的宏观经济影响。核心逻辑是：宏观增益取决于受影响任务的比例，以及每个任务平均节约的成本。作者据此估计，AI 在十年内带来的全要素生产率提升约为 0.66%，低于许多乐观预测。</p>
+            <div class="ai-actions"><button data-action="copy">复制</button><button data-action="flashcard">＋ 闪卡</button><button data-action="note">＋ 笔记</button><button data-action="chat">继续提问</button></div>
+          </aside>
+        </div>
+      </section>
+
+      <aside class="pane review-pane" data-pane="review">
+        <div class="pane-tabs review-tabs" role="tablist" aria-label="研究工具">
+          <button class="glyph-tab active" data-review-tab="review" aria-label="结构化综述">▤</button>
+          <button class="glyph-tab" data-review-tab="methods" aria-label="研究方法">♧</button>
+          <button class="glyph-tab" data-review-tab="outline" aria-label="大纲">☷</button>
+          <button class="glyph-tab" data-review-tab="chat" aria-label="讨论">▱</button>
+          <button class="glyph-tab" data-review-tab="cards" aria-label="闪卡">▣</button>
+          <button class="glyph-tab" data-review-tab="notes" aria-label="笔记">▤</button>
+        </div>
+        <div class="review-body review-view active" id="reviewView">
+          <div class="review-actions"><button id="editReview">编辑</button><button id="copyReview">复制</button><button id="exportReview">导出</button></div>
+          <div id="reviewContent" contenteditable="false">
+            <h2>论文结构化综述 <span>/ Structured Review</span></h2>
+            <p><b>论文标题 / Title:</b> The Simple Macroeconomics of AI（人工智能的简单宏观经济学）</p>
+            <p><b>作者 / Author:</b> Daron Acemoglu</p>
+            <p><b>发表信息 / Publication:</b> NBER Working Paper No. 32487, May 2024</p>
+            <hr>
+            <h3>1. 研究问题 <span>/ Research Question</span></h3>
+            <div class="review-table">
+              <div class="table-head">English</div><div class="table-head">中文</div>
+              <div>Are the claimed large macroeconomic effects of AI plausible, and who will benefit if productivity increases?</div><div>关于人工智能将带来巨大宏观经济影响的论断是否可信？若生产率提升，谁将从中受益？</div>
+              <div>The paper studies medium-term effects on TFP, GDP, wages and inequality.</div><div>论文研究 AI 在未来约十年对全要素生产率、GDP、工资及不平等的影响。</div>
+              <div>It also asks how AI differs from robotics and whether new tasks can have negative social value.</div><div>论文也比较 AI 与传统自动化，并讨论 AI 创造的新任务是否可能具有负面社会价值。</div>
+            </div>
+            <h3>2. 核心方法 <span>/ Core Methodology</span></h3>
+            <p>以任务为单位，把 AI 的影响拆分为自动化、任务互补、深化以及新任务四条路径，并用任务暴露度与成本节约估算总量结果。</p>
+          </div>
+        </div>
+        <div class="review-view placeholder-view" id="methodsView"><span>♧</span><h3>方法拆解</h3><p>任务模型 · 暴露度估计 · 稳健性判断</p></div>
+        <div class="review-view placeholder-view" id="outlineView"><span>☷</span><h3>章节大纲</h3><p>从研究问题到结论，快速定位论证链条。</p></div>
+        <div class="review-view placeholder-view" id="chatView"><span>▱</span><h3>论文问答</h3><label>基于当前论文继续提问<input id="chatInput" placeholder="例如：0.66% 是如何估算的？"></label><button id="sendQuestion">发送问题</button></div>
+        <div class="review-view placeholder-view" id="cardsView"><span>▣</span><h3>知识闪卡</h3><div id="flashcardList"><p>还没有闪卡。选中正文后点击“＋ 闪卡”。</p></div></div>
+        <div class="review-view placeholder-view" id="notesView"><span>▤</span><h3>阅读笔记</h3><textarea id="notesArea" placeholder="随手记录你的判断、疑问和关联……"></textarea></div>
+      </aside>
+    </main>
+
+    <nav class="mobile-dock" aria-label="移动端面板切换">
+      <button data-mobile-pane="toc">目录</button><button class="active" data-mobile-pane="reader">论文</button><button data-mobile-pane="review">综述</button>
+    </nav>
+    <div class="toast" id="toast" role="status"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
