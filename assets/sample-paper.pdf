@@ -1,0 +1,280 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R] /Count 7 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 3195 >>
+stream
+BT /F2 21 Tf 1 0 0 1 80 712.00 Tm (Artificial Intelligence and the Equilibrium) Tj ET
+BT /F2 21 Tf 1 0 0 1 80 686.00 Tm (of Production) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 652.00 Tm (A. Researcher) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 636.00 Tm (Department of Economics, ATLAS Institute) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 620.00 Tm (atlas.workingpapers@example.org) Tj ET
+BT /F2 18 Tf 1 0 0 1 80 588.00 Tm (Abstract) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 558.00 Tm (This paper evaluates how artificial intelligence reshapes production when tasks,) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 540.00 Tm (rather than aggregate capital, are the unit of analysis. It builds a task-based) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 522.00 Tm (model in which output is assembled from a continuum of tasks performed by labor,) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 504.00 Tm (by capital, or by automated systems. So long as the microeconomic gains from AI) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 486.00 Tm (take the form of cost savings at the task level, the macroeconomic consequences) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 468.00 Tm (can be summarized by a version of Hulten's theorem: aggregate productivity gains) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 450.00 Tm (depend on the fraction of tasks affected and on the average cost saving per task.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 432.00 Tm (The paper characterizes the equilibrium allocation of tasks, the wage effects of) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 414.00 Tm (automation and of task complementarities, and the comparative statics that) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 396.00 Tm (determine whether AI raises or lowers labor income inequality. It closes with a) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 378.00 Tm (discussion of why new tasks created by AI may carry negative social value.) Tj ET
+BT /F2 18 Tf 1 0 0 1 80 336.00 Tm (1. Introduction) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 306.00 Tm (Recent advances in artificial intelligence have revived a classic question in) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 288.00 Tm (macroeconomics: how does a general purpose technology change aggregate output,) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 270.00 Tm (wages, and the distribution of income? Forecasts range from negligible effects to) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 252.00 Tm (double digit productivity growth within a decade. This paper asks whether such) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 234.00 Tm (large effects are plausible, and if they are, who is likely to benefit from them.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 208.00 Tm (The approach is task-based. Following the modern literature on automation,) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 190.00 Tm (production is modeled as a continuum of tasks, each of which can be performed by) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 172.00 Tm (labor or by capital. AI enters through four channels: it can automate tasks) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 154.00 Tm (previously performed by workers, it can complement workers on tasks they retain,) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 136.00 Tm (it can deepen the automation of already automated tasks, and it can create) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 118.00 Tm (entirely new tasks.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 92.00 Tm (The central analytical device is a version of Hulten's theorem. When microeconomic) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 3532 >>
+stream
+BT /F1 11 Tf 1 0 0 1 80 712.00 Tm (improvements take the form of cost savings at the task level, aggregate total) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 694.00 Tm (factor productivity grows at a rate given by the share of affected tasks) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 676.00 Tm (multiplied by the average cost saving. Large macroeconomic claims therefore) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 658.00 Tm (require either a large share of affected tasks or large cost savings, and the) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 640.00 Tm (evidence on both is reviewed here.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 614.00 Tm (The paper also studies distribution. Even when AI raises the productivity of) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 596.00 Tm (low-skill workers, equilibrium wages respond through the reallocation of tasks,) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 578.00 Tm (and the wage gap between capital owners and workers can widen. The conclusion) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 560.00 Tm (summarizes what the task-based view implies for forecasting and for policy.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 534.00 Tm (Two features distinguish the task-based approach from earlier growth accounting.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 516.00 Tm (First, it makes the allocation of tasks between labor and capital an endogenous) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 498.00 Tm (object, so that the same microeconomic shock can have different aggregate effects) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 480.00 Tm (depending on where the automation threshold sits. Second, it separates the) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 462.00 Tm (creation of new tasks from the automation of old ones, which allows the model to) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 444.00 Tm (ask whether the new tasks are socially valuable or merely privately profitable.) Tj ET
+BT /F2 18 Tf 1 0 0 1 80 402.00 Tm (2. Conceptual Framework) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 372.00 Tm (The economy produces a single final good from a continuum of tasks indexed on the) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 354.00 Tm (unit interval. Each task can be performed by labor or by capital, and firms choose) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 336.00 Tm (the cheaper method in equilibrium. Workers differ in their effective labor input) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 318.00 Tm (across tasks, which generates a comparative advantage structure: labor is) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 300.00 Tm (relatively better on some tasks and capital on others.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 274.00 Tm (A threshold task index summarizes the allocation. Tasks below the threshold are) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 256.00 Tm (performed by capital, tasks above by labor. The threshold is endogenous: it moves) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 238.00 Tm (when the cost of capital falls, when automation technology improves, or when the) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 220.00 Tm (productivity of labor changes on inframarginal tasks.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 194.00 Tm (Two parameters govern the strength of reallocation. The first is the elasticity of) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 176.00 Tm (substitution across tasks, which determines how easily production can be) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 158.00 Tm (reorganized. The second is the distribution of comparative advantage, which) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 140.00 Tm (determines how much output is lost when a task is moved away from its least-cost) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 122.00 Tm (producer.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 96.00 Tm (The framework is deliberately static and competitive. Prices equal marginal costs,) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 3335 >>
+stream
+BT /F1 11 Tf 1 0 0 1 80 712.00 Tm (factor markets clear, and the task threshold adjusts until no firm can reduce cost) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 694.00 Tm (by switching the method of production for any task. This equilibrium concept is) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 676.00 Tm (simple, but it isolates the channels through which task-level cost savings) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 658.00 Tm (aggregate.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 632.00 Tm (Because the framework is competitive, all cost savings are passed through to) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 614.00 Tm (prices and factor rewards. This is a deliberate simplification: with market power,) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 596.00 Tm (part of the cost saving would be retained as markup, and the aggregation result of) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 578.00 Tm (Section 6 would need to be adjusted accordingly. The competitive benchmark) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 560.00 Tm (therefore gives the cleanest version of the arithmetic that governs the) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 542.00 Tm (macroeconomic debate.) Tj ET
+BT /F2 18 Tf 1 0 0 1 80 500.00 Tm (3. Equilibrium) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 470.00 Tm (An equilibrium consists of a task threshold, a wage, a rental rate of capital, and) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 452.00 Tm (an allocation of tasks such that three conditions hold: firms minimize cost task) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 434.00 Tm (by task, capital is employed optimally on automated tasks, and the labor market) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 416.00 Tm (clears.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 390.00 Tm (Cost minimization implies that the threshold task is the one at which labor and) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 372.00 Tm (capital have equal effective cost. Tasks with a strong labor comparative advantage) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 354.00 Tm (remain with workers even when capital becomes cheaper, because the productivity) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 336.00 Tm (loss from switching exceeds the cost saving.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 310.00 Tm (The labor market clearing condition pins down the wage given the threshold: the) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 292.00 Tm (wage equals the value of the marginal product of labor aggregated over the tasks) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 274.00 Tm (labor performs. Because the set of labor tasks shrinks when automation advances,) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 256.00 Tm (the wage responds both to productivity and to the extensive margin of) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 238.00 Tm (reallocation.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 212.00 Tm (Existence and uniqueness follow from a bounded output condition on the task) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 194.00 Tm (production functions. When the condition fails, multiple thresholds can be) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 176.00 Tm (sustained, and the comparative statics reported below become set-valued rather) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 158.00 Tm (than point-valued.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 132.00 Tm (The equilibrium concept also clarifies a common confusion in public discussion. A) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 114.00 Tm (fall in the cost of automating a single task does not automatically raise output) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 96.00 Tm (by much; it matters only in proportion to the cost share of that task. Aggregate) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 3280 >>
+stream
+BT /F1 11 Tf 1 0 0 1 80 712.00 Tm (effects become large only when many tasks move at once, which is precisely the) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 694.00 Tm (assumption that requires evidence.) Tj ET
+BT /F2 18 Tf 1 0 0 1 80 652.00 Tm (4. How AI Could Affect Production) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 622.00 Tm (AI can extend the automation margin: tasks that were previously too complex or too) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 604.00 Tm (context-dependent for machines become automatable at a cost below the labor cost.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 586.00 Tm (This extensive margin is the channel most visible in public discussion.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 560.00 Tm (AI can also raise the productivity of labor on tasks that remain with workers.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 542.00 Tm (When AI tools complement a worker on a retained task, the effective labor input on) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 524.00 Tm (that task rises, and the value of the marginal product of labor increases.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 498.00 Tm (A third channel is the deepening of automation: on tasks already performed by) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 480.00 Tm (capital, AI can reduce the unit cost of capital services further. This channel) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 462.00 Tm (raises measured productivity without changing the task allocation.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 436.00 Tm (The fourth channel is the creation of new tasks, in which labor has a comparative) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 418.00 Tm (advantage at the outset. New tasks expand the set of activities in which workers) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 400.00 Tm (add value, but they need not be socially valuable: some new tasks, such as) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 382.00 Tm (algorithmic manipulation of attention, may carry negative social value even while) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 364.00 Tm (they are privately profitable.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 338.00 Tm (The four channels interact. Automation of a task removes it from the set on which) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 320.00 Tm (complementarities can operate, while new task creation enlarges that set. The net) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 302.00 Tm (effect on the labor share depends on the balance between these forces, and the) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 284.00 Tm (comparative statics of the next section make this balance explicit.) Tj ET
+BT /F2 18 Tf 1 0 0 1 80 242.00 Tm (5. Equilibrium Wages and Comparative Statics) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 212.00 Tm (Wages in equilibrium depend on three objects: the productivity of labor on) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 194.00 Tm (retained tasks, the technology of automation, and the task allocation itself. The) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 176.00 Tm (comparative statics of the model separate a positive productivity effect from a) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 158.00 Tm (negative displacement effect.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 132.00 Tm (Automation raises aggregate productivity but displaces labor from tasks where it) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 114.00 Tm (was previously employed. When the elasticity of substitution across tasks is low,) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 96.00 Tm (the displacement effect dominates for wages: workers crowd onto fewer tasks, and) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 3495 >>
+stream
+BT /F1 11 Tf 1 0 0 1 80 712.00 Tm (the wage can fall even as output rises.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 686.00 Tm (Task complementarities raise wages directly, but their aggregate weight is limited) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 668.00 Tm (by the share of tasks that labor retains. If automation has already moved a large) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 650.00 Tm (share of tasks to capital, complementarities on the remaining tasks lift the wage) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 632.00 Tm (only modestly, and the labor share of income declines.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 606.00 Tm (The comparative statics also describe inequality. Because capital income accrues) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 588.00 Tm (to owners, any expansion of the automated region raises the capital share. Even) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 570.00 Tm (when low-skill workers gain in absolute terms, the gap between capital income and) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 552.00 Tm (labor income widens, which is the sense in which AI may increase inequality in) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 534.00 Tm (this framework.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 508.00 Tm (Three policy implications follow from the comparative statics, although the paper) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 490.00 Tm (remains positive in scope. Measures that raise the productivity of labor on) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 472.00 Tm (retained tasks strengthen the complementarity channel; measures that ease the) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 454.00 Tm (reallocation of workers across tasks soften the displacement channel; and) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 436.00 Tm (transparency about task level cost savings would improve the quality of the public) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 418.00 Tm (forecast debate.) Tj ET
+BT /F2 18 Tf 1 0 0 1 80 376.00 Tm (6. Hulten's Theorem) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 346.00 Tm (The aggregation result used throughout the paper is a version of Hulten's theorem.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 328.00 Tm (Suppose each affected task experiences a proportional cost saving. Then, to a) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 310.00 Tm (first order, the growth rate of total factor productivity equals the share of) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 292.00 Tm (affected tasks in total cost multiplied by the average cost saving.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 266.00 Tm (The theorem converts microeconomic estimates into a macroeconomic forecast. If a) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 248.00 Tm (fraction of tasks is exposed to AI and the average cost saving on exposed tasks is) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 230.00 Tm (modest, then the implied ten-year gain in total factor productivity is also) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 212.00 Tm (modest, on the order of a few tenths of a percent per year.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 186.00 Tm (Two caveats limit even this estimate. First, early evidence comes from tasks that) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 168.00 Tm (are easy to learn and easy to evaluate, while future exposure concentrates on) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 150.00 Tm (tasks with context-dependent objectives and no clean performance measure. Second,) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 132.00 Tm (cost savings measured in experiments may not survive deployment at scale.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 106.00 Tm (The practical implication is that forecasts of very large aggregate gains require) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 88.00 Tm (assumptions far outside the range supported by current task-level evidence. The) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 3076 >>
+stream
+BT /F1 11 Tf 1 0 0 1 80 712.00 Tm (theorem makes this arithmetic explicit and disciplines the debate.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 686.00 Tm (The theorem is sometimes read as a claim that microeconomic gains always aggregate) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 668.00 Tm (one for one into macroeconomic gains. The opposite is the point: the weighting by) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 650.00 Tm (cost shares is what makes large aggregate claims hard to sustain. A technology) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 632.00 Tm (that transforms a small share of tasks, however dramatically, moves total factor) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 614.00 Tm (productivity only in proportion to that share.) Tj ET
+BT /F2 18 Tf 1 0 0 1 80 572.00 Tm (7. Conclusion) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 542.00 Tm (The task-based framework yields a coherent answer to the question posed in the) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 524.00 Tm (introduction: large macroeconomic effects from AI are possible in principle but) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 506.00 Tm (require either broad task exposure or deep cost savings, and current evidence) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 488.00 Tm (supports neither at the required magnitude.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 462.00 Tm (On distribution, the framework is less comforting. Even favorable productivity) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 444.00 Tm (shocks to low-skill labor can coincide with a rising capital share and a wider gap) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 426.00 Tm (between capital and labor income, because the extensive margin of automation) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 408.00 Tm (reallocates tasks away from workers.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 382.00 Tm (Future work should measure task exposure and cost savings on hard-to-evaluate) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 364.00 Tm (tasks, and should study whether the new tasks created by AI are socially valuable) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 346.00 Tm (or merely privately profitable.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 320.00 Tm (The task-based view does not deny that AI is transformative. It denies that) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 302.00 Tm (transformation at the task level automatically implies transformation at the) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 284.00 Tm (aggregate level, and it insists that the bridge between the two is an arithmetic) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 266.00 Tm (of cost shares that can be measured, disputed, and refined as evidence) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 248.00 Tm (accumulates.) Tj ET
+BT /F2 18 Tf 1 0 0 1 80 206.00 Tm (References) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 176.00 Tm (Acemoglu, D. \(2024\). The Simple Macroeconomics of AI. NBER Working Paper No.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 158.00 Tm (32487, National Bureau of Economic Research, Cambridge, MA.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 132.00 Tm (Acemoglu, D. and P. Restrepo \(2018\). The Race between Man and Machine:) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 114.00 Tm (Implications of Technology for Growth, Factor Shares, and Employment. American) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 96.00 Tm (Economic Review, 108\(6\), 1488-1542.) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 18 0 R >>
+endobj
+18 0 obj
+<< /Length 394 >>
+stream
+BT /F1 11 Tf 1 0 0 1 80 712.00 Tm (Hulten, C. R. \(1978\). Growth Accounting with Intermediate Inputs. Review of) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 694.00 Tm (Economic Studies, 45\(3\), 511-518.) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 668.00 Tm (Zeira, J. \(1998\). Workers, Machines, and Economic Growth. Quarterly Journal of) Tj ET
+BT /F1 11 Tf 1 0 0 1 80 650.00 Tm (Economics, 113\(4\), 1091-1117.) Tj ET
+endstream
+endobj
+xref
+0 19
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000155 00000 n 
+0000000252 00000 n 
+0000000354 00000 n 
+0000000490 00000 n 
+0000003737 00000 n 
+0000003873 00000 n 
+0000007457 00000 n 
+0000007594 00000 n 
+0000010982 00000 n 
+0000011120 00000 n 
+0000014453 00000 n 
+0000014591 00000 n 
+0000018139 00000 n 
+0000018277 00000 n 
+0000021406 00000 n 
+0000021544 00000 n 
+trailer
+<< /Size 19 /Root 1 0 R >>
+startxref
+21990
+%%EOF

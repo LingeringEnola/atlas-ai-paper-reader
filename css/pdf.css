@@ -1,0 +1,110 @@
+#pdfToolbar {
+  flex: 0 0 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 18px;
+  border-bottom: 1px solid var(--line);
+  background: var(--paper);
+}
+.tb-group { display: flex; align-items: center; gap: 6px; flex: 0 0 auto; }
+.tb-btn {
+  min-width: 28px;
+  height: 28px;
+  padding: 0 9px;
+  border: 1px solid var(--line-2);
+  background: var(--paper);
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+.tb-btn:hover { border-color: var(--ink); }
+.tb-btn[disabled] { opacity: 0.35; pointer-events: none; }
+.tb-btn.active { background: var(--ink); color: #fff; border-color: var(--ink); }
+.tb-label { font-size: 12px; color: var(--ink-2); min-width: 54px; text-align: center; }
+.segmented { display: flex; gap: 0; }
+.segmented .tb-btn + .tb-btn { margin-left: -1px; }
+
+#viewerHost { position: relative; flex: 1; min-height: 0; overflow: auto; background: var(--bg); }
+#pageModeWrap { min-height: 100%; display: flex; flex-direction: column; align-items: center; }
+#scrollWrap { min-height: 100%; display: flex; flex-direction: column; align-items: center; }
+
+.page-slot {
+  position: relative;
+  margin: 16px auto;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.14);
+  flex: 0 0 auto;
+}
+.page-slot canvas { display: block; position: relative; z-index: 1; }
+
+/* textLayer rules adapted from pdfjs-dist 4.10.38 legacy/web/pdf_viewer.css */
+.textLayer {
+  position: absolute;
+  text-align: initial;
+  inset: 0;
+  overflow: clip;
+  opacity: 1;
+  line-height: 1;
+  text-size-adjust: none;
+  forced-color-adjust: none;
+  transform-origin: 0 0;
+  caret-color: CanvasText;
+  z-index: 2;
+}
+.textLayer :is(span, br) {
+  color: transparent;
+  position: absolute;
+  white-space: pre;
+  cursor: text;
+  transform-origin: 0% 0%;
+}
+.textLayer > :not(.markedContent),
+.textLayer .markedContent span:not(.markedContent) { z-index: 1; }
+.textLayer span.markedContent { top: 0; height: 0; }
+.textLayer ::selection { background: rgba(20, 20, 18, 0.22); }
+
+#dropOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(247, 247, 244, 0.92);
+  z-index: 120;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  letter-spacing: 0.12em;
+  border: 2px dashed var(--ink);
+  pointer-events: none;
+}
+
+#emptyState {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  color: var(--muted);
+}
+#emptyState .caps { font-size: 11px; }
+
+#viewerError {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: var(--ink-2);
+  font-size: 13px;
+  line-height: 1.9;
+  text-align: center;
+  padding: 0 40px;
+}

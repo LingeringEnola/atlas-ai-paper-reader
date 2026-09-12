@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ATLAS — AI Paper Reader</title>
+<link rel="stylesheet" href="./css/base.css">
+<link rel="stylesheet" href="./css/layout.css">
+<link rel="stylesheet" href="./css/pdf.css">
+<link rel="stylesheet" href="./css/panels.css">
+</head>
+<body>
+<header id="topbar">
+  <div class="brand"><span class="brand-mark">A</span><span class="brand-name">ATLAS</span></div>
+  <div id="docTitle">—</div>
+  <div class="topbar-actions">
+    <button class="btn" id="btnUpload">打开 PDF</button>
+    <div class="export-wrap">
+      <button class="btn dark" id="btnExportCards">导出知识库卡片</button>
+      <div class="menu hidden" id="exportMenu">
+        <button data-format="md">导出为 Markdown</button>
+        <button data-format="json">导出为 JSON</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="app">
+  <aside id="leftPanel">
+    <div class="left-tabs">
+      <button class="left-tab active" data-lefttab="toc"><span data-icon="toc"></span>TOC</button>
+      <button class="left-tab" data-lefttab="mindmap"><span data-icon="mindmap"></span>脑图</button>
+    </div>
+    <div class="left-view" id="tocView">
+      <div class="left-head"><span class="caps">Table of Contents</span><button class="icon-btn" id="btnTocRefresh" title="重新提取目录"><span data-icon="flip"></span></button></div>
+      <div id="tocTree"></div>
+    </div>
+    <div class="left-view hidden" id="mindmapView">
+      <svg id="mindmapSvg"></svg>
+      <button class="btn small mm-fit" id="btnMindmapFit">Fit</button>
+    </div>
+    <div class="reading-bar">
+      <div class="reading-row"><span class="caps">Reading</span><span class="val" id="readingPos">– / –</span></div>
+      <div class="progress"><i id="progressFill"></i></div>
+    </div>
+  </aside>
+
+  <section id="centerPanel">
+    <div id="pdfToolbar">
+      <div class="tb-group">
+        <button class="tb-btn" id="btnPrev" title="上一页">‹</button>
+        <span class="tb-label" id="pageIndicator">– / –</span>
+        <button class="tb-btn" id="btnNext" title="下一页">›</button>
+      </div>
+      <div class="tb-group segmented">
+        <button class="tb-btn active" id="btnModePage">翻页</button>
+        <button class="tb-btn" id="btnModeScroll">滚动</button>
+      </div>
+      <div class="tb-group">
+        <button class="tb-btn" id="btnZoomOut" title="缩小">−</button>
+        <span class="tb-label" id="zoomLabel">–</span>
+        <button class="tb-btn" id="btnZoomIn" title="放大">+</button>
+        <button class="tb-btn" id="btnFitWidth">Fit width</button>
+      </div>
+    </div>
+    <div id="viewerHost">
+      <div id="pageModeWrap"></div>
+      <div id="scrollWrap" class="hidden"></div>
+      <div id="emptyState" class="hidden">
+        <span class="caps">No document</span>
+        <div>将 PDF 拖拽到窗口中，或</div>
+        <button class="btn" id="btnUpload2">选择 PDF 文件</button>
+      </div>
+      <div id="viewerError" class="hidden"></div>
+      <div id="explainPopover" class="hidden">
+        <div class="pop-head"><span class="caps">AI Explain</span><button class="icon-btn" id="popClose" title="关闭"></button></div>
+        <div class="pop-quote" id="popQuote"></div>
+        <div class="pop-body" id="popBody"></div>
+        <div class="pop-actions">
+          <button class="btn small" id="popCopy">Copy</button>
+          <button class="btn small" id="popFlashcard">+ Flashcard</button>
+          <button class="btn small" id="popNotepad">+ Notepad</button>
+          <button class="btn small" id="popChat">Ask in Chat</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <aside id="rightPanel">
+    <div class="right-tabs" id="rightTabs">
+      <button class="icon-btn active" data-righttab="review" title="结构化综述"><span data-icon="review"></span></button>
+      <button class="icon-btn" data-righttab="flashcards" title="闪卡"><span data-icon="flashcards"></span></button>
+      <button class="icon-btn" data-righttab="notes" title="笔记本"><span data-icon="notes"></span></button>
+      <button class="icon-btn" data-righttab="chat" title="论文问答"><span data-icon="chat"></span></button>
+      <button class="icon-btn" data-righttab="cards" title="知识卡片"><span data-icon="cards"></span></button>
+      <button class="icon-btn" data-righttab="settings" title="设置"><span data-icon="settings"></span></button>
+    </div>
+    <div class="panel-actions" id="reviewActions">
+      <button class="btn small" id="btnReviewEdit">编辑</button>
+      <button class="btn small" id="btnReviewCopy">复制</button>
+      <button class="btn small" id="btnReviewExport">导出</button>
+    </div>
+    <div id="panelBody"></div>
+  </aside>
+</main>
+
+<input type="file" id="fileInput" accept="application/pdf,.pdf" hidden>
+<div id="dropOverlay" class="hidden">释放以打开 PDF</div>
+<div id="toast" class="hidden"></div>
+
+<script type="module" src="./js/main.js"></script>
+</body>
+</html>
